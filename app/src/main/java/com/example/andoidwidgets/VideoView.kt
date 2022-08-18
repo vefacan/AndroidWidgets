@@ -14,7 +14,7 @@ class VideoView : AppCompatActivity() {
 
         buttonVideoBasla.setOnClickListener {
 
-            val video = Uri.parse("android.resource://"+packageName+"/"+R.raw.amkegesi)
+            val video = Uri.parse("android.resource://"+packageName+"/"+R.raw.touchit)
 
             videoView.setVideoURI(video)
             videoView.start()
